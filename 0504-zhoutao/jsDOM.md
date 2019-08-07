@@ -1,0 +1,40 @@
+# DOM方法总结：
+- innerHTML 属性可用于获取或替换 HTML 元素的内容。innerHTML 属性可用于获取或改变任何 HTML 元素，包括 <html> 和 <body>。
+- document.getElementById(id)	通过元素 id 来查找元素
+- document.getElementsByTagName(name)	通过标签名来查找元素
+- document.getElementsByClassName(name)	通过类名来查找元素
+- element.innerHTML = new html content	改变元素的 inner HTML
+- element.attribute = new value	改变 HTML 元素的属性值
+- element.setAttribute(attribute, value)	改变 HTML 元素的属性值
+- element.style.property = new style	改变 HTML 元素的样式
+- document.createElement(element)	创建 HTML 元素
+- document.removeChild(element)	删除 HTML 元素
+- document.appendChild(element)	添加 HTML 元素
+- document.replaceChild(element)	替换 HTML 元素
+- document.write(text)	写入 HTML 输出流
+- document.getElementById(id).onclick = function(){code}	向 onclick 事件添加事件处理程序
+- document.anchors	返回拥有 name 属性的所有 <a> 元素。	
+- document.applets	返回所有 <applet> 元素（HTML5 不建议使用）	
+- document.baseURI	返回文档的绝对基准 URI	
+- document.body	返回 <body> 元素	
+- document.cookie	返回文档的 cookie	
+- document.doctype	返回文档的 doctype	
+- document.documentElement	返回 <html> 元素	
+- document.documentMode	返回浏览器使用的模式	
+- document.documentURI	返回文档的 URL
+- document.domain	返回文档服务器的域名	
+- document.domConfig	废弃。返回 DOM 配置	
+- document.embeds	返回所有 <embed> 元素	
+- document.forms	返回所有 <form> 元素	
+- document.head	返回 <head> 元素	
+- document.images	返回所有 <img> 元素	
+- document.implementation	返回 DOM 实现	
+- document.inputEncoding	返回文档的编码（字符集）	
+- document.lastModified	返回文档更新的日期和时间	
+- document.links	返回拥有 href 属性的所有 <area> 和 <a> 元素	
+- document.readyState	返回文档的（加载）状态	
+- document.referrer	返回引用的 URI（链接文档）	
+- document.scripts	返回所有 <script> 元素	
+- document.strictErrorChecking	返回是否强制执行错误检查	
+- document.title	返回 <title> 元素
+- document.URL	返回文档的完整 URL
